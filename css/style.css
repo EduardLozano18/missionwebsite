@@ -241,21 +241,33 @@ header ul li a {
     }
 
     section{
-        padding: 20px 20px 120px ;
-        min-width: auto;
+        padding: 20px 20px 120px  0 ;
+        min-width: 10%;
 
     }
 
     .content{
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 70px;
+        justify-content: center;
+
     }
 
     .content .textbox h2{
         margin-top: 20px;
-        font-size: 2.5em;
+        font-size: 2.2em;
 
     }
+
+    .content .imgbox{
+        margin: 0;
+        padding-bottom: 0;
+        width: 350px;
+        height: 400px;
+
+
+    }
+
 
     .textbox {
         max-width: 100%;
@@ -263,32 +275,36 @@ header ul li a {
     }
 
     .textbox .imgbox{
-        max-width: 100%;
         justify-content: center;
+        margin-top: 0;
+        margin: 0;
 
     }
 
     .content .imgbox img{
-        max-width: 450px;
-        height: auto;
-        margin-left: 100px;
+        
+    max-width: 550px;
+    max-height: 400px;
+    
+        
         
 
     }
 
     .thumb li img {
-        max-width: 80px;
+        max-width: 100px;
+        
     }
     .circle{
-        clip-path: circle(400px at center bottom);
+        clip-path: circle(447px at center bottom);
     }
 
     .sci{
         background: var(--red);
         right: 0;
         width: 50px;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px; ;
+        /* border-top-left-radius: 5px; */
+        /* border-bottom-left-radius: 5px; ; */
 
     }
 
